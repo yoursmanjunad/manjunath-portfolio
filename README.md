@@ -6,8 +6,6 @@ and mobile.
 
 ![A screenshot of the project](./developerportfoliothumbnail.png)
 
-Live Demo : https://jslegenddev.github.io/portfolio/
-
 Watch the tutorial I made on how to build this on YouTube : https://www.youtube.com/watch?v=gwtfWORCN0U
 
 # How to run
