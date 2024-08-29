@@ -12,9 +12,7 @@ const Approach = () => {
       </h1>
       <div className="my-12 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card title="Planning and Strategy" icon={<AceternityIcon order="Phase 1" />}
-          description="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          description="We'll collaborate to map out your website's goals, deployment regions, capacity planning, and define strategies to deploy application smooth and faster."
         >
           <CanvasRevealEffect
             animationSpeed={6}
@@ -23,8 +21,7 @@ const Approach = () => {
         </Card>
         <Card title="Development and Progress Updates" icon={<AceternityIcon order="Phase 2" />}
           description="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way.">
+          coding. First we setup the infrastrucuture, and then install tools, get acccess tokens, configure tools, and setting up everything for deployment. ">
           <CanvasRevealEffect
             animationSpeed={6}
             containerClassName="bg-black"
@@ -36,9 +33,7 @@ const Approach = () => {
           />
         </Card>
         <Card title="Deployment & Launch" icon={<AceternityIcon order="Phase 3" />}
-          description="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up.">
+          description="This is where the magic happens! Here, we get all the resources utilized, application gets pulled, built, tested, packed, deployed and monitored.">
           <CanvasRevealEffect
             animationSpeed={6}
             containerClassName="bg-sky-600"
