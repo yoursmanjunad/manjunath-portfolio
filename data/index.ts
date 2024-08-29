@@ -75,26 +75,26 @@ export const projects = [
   {
     id: 1,
     title: "Deploying a Spring Application",
-    des: "Deployed a Spring application using Git, GitHub, Jenkins, Docker, Kubernetes, Ansible, Grafana, Prometheus, SigNoz, AWS, Terraform.",
-    img: "/magma.png",
-    iconLists: ["/docker.svg", "/kubernetes.svg", "/jenkins.png", "/ansible.png", "/aws.svg"],
-    link: "https://magma-clone-et.netlify.app/",
+    des: "Deployed a Spring application using Git, GitHub, Jenkins, Docker, Kubernetes, Ansible, Grafana, Prometheus, AWS",
+    img: "/project3.png",
+    iconLists: ["/docker.svg", "/k8s.png", "/jenkins.svg", "/prometheus.png", "/grafana.svg", "maven.jpeg"],
+    link: "https://github.com/yoursmanjunad/DevOps-Project-3.git",
   },
   {
     id: 2,
-    title: "Azure DevOps",
+    title: "Open Telemetry Monitoring",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/yoom.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://video-conferencing-yoom.vercel.app/",
+    img: "/dash.png",
+    iconLists: ["/open telemetry.png", "/grafana.svg", "/prometheus.png", "/jaeger.png", "/cloud.svg"],
+    link: "https://github.com/yoursmanjunad/OpenTelemetry-Monitoring.git",
   },
   {
     id: 3,
     title: "Setting up Infrastructure",
     des: "Defining infrastructure using Terraform",
-    img: "/medium.png",
-    iconLists: ["/prisma.svg", "/npm.svg", "/tail.svg", "/ts.svg", "/cloudflare.svg", "/postgres.svg"],
-    link: "https://medium-but-better.vercel.app/",
+    img: "/tfff.Default",
+    iconLists: ["/terraform.svg", "/aws.png", "/prometheus.png", "/grafana.svg"],
+    link: "https://github.com/yoursmanjunad/Terraform-AWS---Dev-Env.git",
   },
   {
     id: 4,
@@ -111,14 +111,14 @@ export const achievements = [
     id: 1,
     quote:
       "I was appointed as the designer of the team, we made a one click solution to backup your Amazon buckets to Arweave via a pipeline.",
-    img: "arweave.jpg",
+    img: "/signoz.jpeg",
     title: "1st Runner Up, Arweave Hacker House Cohort #1",
   },
   {
     id: 2,
     quote:
       "Came second in this National level 72 hour hackathon. We developed a suite to allow specially abled people to use a computer with less effort.",
-    img: "hackvengers.png",
+    img: "/pierc.jpeg",
     title: "Startup Incubation at PIERC",
   },
   {
@@ -183,31 +183,31 @@ export const workExperience = [
     title: "Technical Content Writer - Intern",
     desc: "Contributed to more than 7 repositories by successfully making 10 Pull Requests over the span of a week involving technologies like Javascript, React and Markdowns.",
     className: "md:col-span-2",
-    thumbnail: "/gssoc.png",
+    thumbnail: "parul.jpg",
   },
   {
     id: 2,
     title: "DevOps & Open-Source Lead",
-    desc: "Got the opportunity to contribute to Nothing.tech's community as Nothing's Generation Nothing Member.",
+    desc: "Led the Web track for GDSC PU, conducted cohort and taught over 150 students with Practical Hands-On and projects.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/nothing.jpeg",
+    thumbnail: "/gdsc.png",
   },
   {
     id: 3,
     title: "DevOps Content Writer - Freelance",
     desc: "Led the Web track for GDSC PU, conducted cohort and taught over 150 students with Practical Hands-On and projects.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/gdsc.png",
+    thumbnail: "/signoz.jpeg",
   },
   {
     id: 4,
     title: "DevOps Engineer",
     desc: "Actively looking to gather more Experiece, drop me an email if you think that I can help you.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/onwe.jpg",
   },
   {
-    id: 4,
+    id: 5,
     title: "More Incoming",
     desc: "Actively looking to gather more Experiece, drop me an email if you think that I can help you.",
     className: "md:col-span-2",
@@ -218,7 +218,7 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    link: "https://github.com/Atharva-3000",
+    link: "https://github.com/yoursmanjunad",
     img: "/git.svg",
   },
   {
@@ -228,7 +228,7 @@ export const socialMedia = [
   },
   {
     id: 3,
-    link: "https://www.linkedin.com/in/atharvadeshmukh3000/",
+    link: "https://www.linkedin.com/in/irumanjunath/",
     img: "/link.svg",
   },
 ];

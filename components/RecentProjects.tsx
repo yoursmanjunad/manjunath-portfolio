@@ -74,7 +74,7 @@ const RecentProjects = () => {
                 <div className="flex justify-center items-center border rounded-md p-2">
                   <a href={item.link} className="cursor-pointer" target="_blank">
                     <p className="flex lg:text-xl md:text-xs text-sm text-purple text-center">
-                      Youtube Link
+                      GitHub Link
                     </p>
                   </a>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
