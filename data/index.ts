@@ -1,9 +1,12 @@
+import { link } from "fs";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Achievements", link: "#achievements" },
   { name: "Approach", link: "#approach" },
   { name: "Contact", link: "#contact" },
+  // {name: "Writing", link: "Writing"},
 
 ];
 
@@ -71,6 +74,40 @@ export const gridItems = [
   },
 ];
 
+// export const writings = [
+//   {
+//     id: 1,
+//     quote:
+//       "",
+//     img: "/signoz.jpeg",
+//     title: "1st Runner Up, Arweave Hacker House Cohort #1",
+//   }
+// ]
+
+export const writings = [
+  {
+    id: 1,
+    quote:
+      "Article to provide comprehensive guide to systemctl logs",
+    img: "/signoz.jpeg",
+    title: "https://signoz.io/guides/systemctl-logs/",
+  },
+  {
+    id: 2,
+    quote:
+      "What are SysLog formats? How to use them?",
+    img: "/signoz.jpeg",
+    title: "https://signoz.io/blog/syslog-formats/",
+  },
+  {
+    id: 2,
+    quote:
+      "What are SysLog formats? How to use them?",
+    img: "/signoz.jpeg",
+    title: "https://signoz.io/blog/syslog-formats/",
+  },
+]
+
 export const projects = [
   {
     id: 1,
@@ -94,30 +131,30 @@ export const projects = [
     des: "Defining infrastructure using Terraform",
     img: "/tfff.Default",
     iconLists: ["/terraform.svg", "/aws.png", "/prometheus.png", "/grafana.svg"],
-    link: "https://github.com/yoursmanjunad/Terraform-AWS---Dev-Env.git",
+    link: "https://github.com/yoursmanjunad/AWS-Terraform",
   },
-  {
-    id: 4,
-    title: "",
-    des: "Build the Zed Code Editor based on Rust from Source for Windows which isn't available officially yet.",
-    img: "/zed.png",
-    iconLists: ["/rust.png", "/crate.png", "/window.svg", "/github.png", "/markdown.png"],
-    link: "https://github.com/Atharva-3000/zed-windows-unofficial-release",
-  },
+  // {
+  //   id: 4,
+  //   title: "",
+  //   des: "Build the Zed Code Editor based on Rust from Source for Windows which isn't available officially yet.",
+  //   img: "/zed.png",
+  //   iconLists: ["/rust.png", "/crate.png", "/window.svg", "/github.png", "/markdown.png"],
+  //   link: "https://github.com/Atharva-3000/zed-windows-unofficial-release",
+  // },
 ]
 
 export const achievements = [
   {
     id: 1,
     quote:
-      "I was appointed as the designer of the team, we made a one click solution to backup your Amazon buckets to Arweave via a pipeline.",
+      "I was appointed as Freelance Technical Content Writer at Y-Combinator Funded startup - SigNoz.io.",
     img: "/signoz.jpeg",
-    title: "1st Runner Up, Arweave Hacker House Cohort #1",
+    title: "My article resulting in better searches for SigNoz",
   },
   {
     id: 2,
     quote:
-      "Came second in this National level 72 hour hackathon. We developed a suite to allow specially abled people to use a computer with less effort.",
+      "Got selected as potential startup project over 200 teams and got 2 weeks of startup incubation at PIERC",
     img: "/pierc.jpeg",
     title: "Startup Incubation at PIERC",
   },
@@ -202,7 +239,7 @@ export const workExperience = [
   {
     id: 4,
     title: "DevOps Engineer",
-    desc: "Actively looking to gather more Experiece, drop me an email if you think that I can help you.",
+    desc: "Working at a startup as a Intern DevOps Engineer, daily job - Maintain Software Lifecycle, Branching Strategies and maintain code, Deploy features branches, and monitor them.",
     className: "md:col-span-2",
     thumbnail: "/onwe.jpg",
   },
@@ -220,11 +257,6 @@ export const socialMedia = [
     id: 1,
     link: "https://github.com/yoursmanjunad",
     img: "/git.svg",
-  },
-  {
-    id: 2,
-    link: "https://twitter.com/0x_atharva",
-    img: "/twit.svg",
   },
   {
     id: 3,

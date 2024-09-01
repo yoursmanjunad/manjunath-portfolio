@@ -58,14 +58,6 @@ const Hero = () => {
                 position="right"
               />
             </a>            
-            <a  href= "https://www.youtube.com/watch?v=aAjH9wqtx9o&t=166s">
-              <MagicButton
-              otherClasses="text-purple uppercase hover:font-bold tacking-wide hover:tracking-widest transition-all duration-300"
-                title="Resume Video"
-                icon={<IoDocumentTextOutline className="fill-purple"/>}
-                position="right"
-              />
-            </a>
           </div>
         </div>
       </div>
